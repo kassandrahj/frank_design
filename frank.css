@@ -1,0 +1,120 @@
+/* 
+form{
+    color:rgb(241, 232, 232);
+    display: flex;
+    padding: 2px;
+    
+  
+}
+input[type="search"]{
+    background:transparent;
+    margin: 0px;
+    padding: 0px 0px;
+    font-size: 9px;
+}
+input[type="search"]::placeholder{
+    color: rgb(201, 33, 117);
+}
+    button[type="submit"] {
+        text-indent: -999px;
+        overflow: hidden;
+        width: 40px;
+        padding: 0;
+        margin: 0;
+        border: 1px solid transparent;
+        border-radius: inherit;
+        background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+        cursor: pointer;
+        opacity: 0.7;
+    }
+      
+      button[type="submit"]:hover {
+        opacity: 1;
+      }
+
+button[type="submit"]:focus,
+input[type="search"]:focus {
+  box-shadow: 0 0 3px 0 #1183d6;
+  border-color: #1183d6;
+  outline: none;
+} */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+body{
+    background: white;
+
+}
+.container{
+    position: left;
+    background-image: linear-gradient(rgba(0,8,51,0.9),rgba(0,8,51,0.9),url(./static/Start\ search.jpg));
+    background-position: center;
+    display: flex;
+    align-items: center;
+
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%,-50%); */
+}
+input{
+    border:none;
+    height: 40px;
+    width: 320px;
+    border-radius: 15px;
+    font-size: medium;
+    font-style: italic;
+    font-weight: 100;
+}
+.search{
+    width:100%;
+    max-width: 1900px;
+    background:rgb(238, 227, 227);
+    display: flex;
+    align-items: center;
+    /* border-radius: 40px; */
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+    flex: 3;
+}
+.search input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+
+}
+.search button img{
+    width:25px;
+    background: transparent;
+}
+.search button{
+    border: 0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: rgb(253, 252, 252);
+    cursor: pointer;
+
+
+}
+#but2{
+    border: 0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: rgb(253, 252, 252);
+    cursor: pointer;
+    flex: 3;
+
+}
+#name{
+    align-items: center;
+    flex: 2;
+}
+.class1{
+    background-image: url("./static/original-t-JTeygY-080538.jpeg.png");
+    height: 100vh;
+}
